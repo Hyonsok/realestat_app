@@ -1,0 +1,30 @@
+//basic
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+      margin: 0;
+  }
+  
+  img {
+      max-width: 100%;
+      height: auto;
+  }
+
+// Colors
+$dark: #1c1c1c;
+$light: #fcfcfc;
+$yellow: #f7df1c;
+$grey: #e1e1e1;
+$red: #d75b5b;
+
+// Type
+$bodyFont: 'Roboto', sans-serif;
+$headingFont: 'Alatsi', sans-serif;
+
+// Layout
+$section-padding: em(16) em(20);
