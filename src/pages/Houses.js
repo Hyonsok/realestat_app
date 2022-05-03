@@ -1,13 +1,9 @@
-import React from 'react';
-import '../App.css';
-import { Button } from '../components/Button';
+import React from 'react'
 
 function Houses() {
   return (
-      <div>
-          This is Houses page
-      </div>
-  );
+    <div>This is Houses page</div>
+  )
 }
 
-export default Houses;
+export default Houses
