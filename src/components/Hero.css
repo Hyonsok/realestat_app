@@ -43,6 +43,22 @@ video {
   .fa-play-circle {
     margin-left: 4px;
   }
+
+  .hero-input {
+    padding: 8px 20px;
+    width:30rem;
+    border-radius: 10px;
+    margin-right: 10px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    margin-top:3rem;
+    border: 10px solid yellow;
+  }
+
+  .hi {
+    background-color: aqua;
+  }
   
   @media screen and (max-width: 960px) {
     .hero-container > h1 {
