@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Houses from './pages/Houses';
 import SignUp from './pages/SignUp';
+import HouseDetail from './pages/HouseDetail';
 
 class App extends React.Component {
   render() {
@@ -16,6 +17,7 @@ class App extends React.Component {
           <Routes>
             <Route exact path='/'  element={<Home/>} />
             <Route path='/houses' element={<Houses/>} />
+            <Route path='/house-details' element={<HouseDetail/>} />
             <Route path='/signup' element={<SignUp/>} />
           </Routes>
           <Footer />
