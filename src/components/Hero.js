@@ -3,12 +3,22 @@ import '../App.css';
 import { Button } from './Button.js';
 import './Hero.css';
 
+
 function Hero() {
   return (
     <div className='hero-container'>
       <video src='/videos/video-1.mp4' autoPlay loop muted />
       <h1>We are here to help you.</h1>
       <p>What are you waiting for?</p>
+      <form>
+            <input
+              className='hero-input'
+              name='submit'
+              type='sbumit'
+              placeholder='City, Neighbourhood, Adress, School'
+            />
+        </form>
+        <img src="/imges/search.png" alt="search.png"/>
       <div className='hero-btns'>
         <Button
           cbuttonStyle='btn--outline'
