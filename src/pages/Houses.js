@@ -1,8 +1,9 @@
 import React from 'react'
+import Cards from '../components/Cards'
 
 function Houses() {
   return (
-    <div>This is Houses page</div>
+    <Cards />
   )
 }
 

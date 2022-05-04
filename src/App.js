@@ -5,6 +5,8 @@ import './App.css';
 import Home from './pages/Home';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Houses from './pages/Houses';
+import HouseDetail from './pages/HouseDetail';
+import Contact from './pages/Contact';
 import SignUp from './pages/SignUp';
 
 class App extends React.Component {
@@ -16,6 +18,8 @@ class App extends React.Component {
           <Routes>
             <Route exact path='/'  element={<Home/>} />
             <Route path='/houses' element={<Houses/>} />
+            <Route path='/house-details' element={<HouseDetail/>} />
+            <Route path='/contact' element={<Contact/>} />
             <Route path='/signup' element={<SignUp/>} />
           </Routes>
           <Footer />
