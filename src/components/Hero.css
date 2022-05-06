@@ -45,15 +45,15 @@ video {
   }
 
   .hero-input {
-    padding: 8px 20px;
-    width:30rem;
+    padding: 15px 25px;
+    width:35rem;
     border-radius: 10px;
     margin-right: 10px;
     outline: none;
     border: none;
     font-size: 18px;
-    margin-top:3rem;
-    border: 10px solid yellow;
+    margin-top:4rem;
+    border: 15px solid #242424;
   }
 
   .hi {
