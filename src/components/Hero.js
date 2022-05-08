@@ -18,7 +18,6 @@ function Hero() {
               placeholder='City, Neighbourhood, Adress, School'
             />
         </form>
-        <img src="/imges/search.png" alt="search.png"/>
       <div className='hero-btns'>
         <Button
           cbuttonStyle='btn--outline'
