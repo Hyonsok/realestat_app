@@ -1,0 +1,60 @@
+{
+    "houses": [
+        {
+            "id": 0,
+            "name":"House #1", 
+            "price":"$5,000,001",
+            "instruction": "Lorem Ipsum has been the industry",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgrTDM2IJiGGdfkU6oyfh4OW2a4Wcw-1bK8Q&usqp=CAU"
+        },
+        {
+            "id": 1,
+            "name":"House #2", 
+            "price":"$5,000,002",
+            "instruction": "Lorem Ipsum has been the industry",
+            "image": "https://images.adsttc.com/media/images/5ecd/d4ac/b357/65c6/7300/009d/large_jpg/02C.jpg?1590547607"
+        },
+        {
+            "id": 2,
+            "name":"House #3", 
+            "price":"$5,000,003",
+            "instruction": "Lorem Ipsum has been the industry",
+            "image": "https://static.dezeen.com/uploads/2020/02/house-in-the-landscape-niko-arcjitect-architecture-residential-russia-houses-khurtin_dezeen_2364_hero.jpg"
+        },
+        {
+            "id": 3,
+            "name":"House #4", 
+            "price":"$5,000,004",
+            "instruction": "Lorem Ipsum has been the industry",
+            "image": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aG91c2UlMjBleHRlcmlvcnxlbnwwfHwwfHw%3D&w=1000&q=80"
+        },
+        {
+            "id": 4,
+            "name":"House #5", 
+            "price":"$5,000,005",
+            "instruction": "Lorem Ipsum has been the industry",
+            "image": "https://cdn.decoist.com/wp-content/uploads/2021/06/Modular-black-house-with-balcony-49706.jpg"
+        },
+        {
+            "id": 5,
+            "name":"House #6", 
+            "price":"$5,000,006",
+            "instruction": "Lorem Ipsum has been the industry",
+            "image": "https://media.gettyimages.com/photos/modern-custom-suburban-home-exterior-picture-id1255835529?s=612x612"
+        },
+        {
+            "id": 6,
+            "name":"House #7", 
+            "price":"$5,000,007",
+            "instruction": "Lorem Ipsum has been the industry",
+            "image": "https://cdn.houseplansservices.com/product/6ek8jns2uvt3p24kbigoctc4ih/w800x533.jpg?v=13"
+        },
+        {
+            "id": 7,
+            "name":"House #8", 
+            "price":"$5,000,008",
+            "instruction": "Lorem Ipsum has been the industry",
+            "image": "https://i0.wp.com/homesofheights.com/wp-content/uploads/2020/03/MODERN-HOUSE-2.jpg?fit=1240%2C800&ssl=1"
+        }
+    ]
+}
