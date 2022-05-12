@@ -18,7 +18,7 @@ class App extends React.Component {
           <Routes>
             <Route exact path='/'  element={<Home/>} />
             <Route path='/houses' element={<Houses/>} />
-            <Route path='/house-details' element={<HouseDetail/>} />
+            <Route path='/house-details/:houseId' element={<HouseDetail/>} />
             <Route path='/contact' element={<Contact/>} />
             <Route path='/signup' element={<SignUp/>} />
           </Routes>

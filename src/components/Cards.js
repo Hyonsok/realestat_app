@@ -20,11 +20,11 @@ function Cards() {
     <ul key={idx} className='cards__items'>  
         { row?.map(house => 
         <CardItem
-        key={house.index}
+        key={house.id}
         src={house.image}
         text={house.instruction}
         label={house.price}
-        path="/house-detail/"
+        path={`/house-details/${house.id}`}
         />
          )}
       </ul> )
@@ -32,7 +32,7 @@ function Cards() {
 
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Houses!</h1>
+      <h1 style={{color: "black"}}>Check out these EPIC Houses!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
               {content}
