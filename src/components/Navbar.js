@@ -71,10 +71,18 @@ function Navbar() {
                 onClick={closeMobileMenu}
               >
                 <Button variant="light">Sign Up</Button>
-                <LogIn/>
               </Link>
             </li>
           </ul>
+          <li className='nav-item1'>
+              <Link
+                to='/signup'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                <LogIn variant="light">LogIn</LogIn>
+              </Link>
+              </li>
         </div>
       </nav>
     </>
