@@ -2,8 +2,13 @@ import React, { useState, useEffect } from 'react';
 import { Button } from './Button.js';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import LogIn from './LogIn';
+import { useSelector } from 'react-redux';
+
 
 function Navbar() {
+  const username = useSelector((state) => state.user.username);
+
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
@@ -69,6 +74,15 @@ function Navbar() {
               </Link>
             </li>
           </ul>
+          <li className='nav-item1'>
+              <Link
+                to='/signup'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                <LogIn variant="light">LogIn</LogIn>
+              </Link>
+              </li>
         </div>
       </nav>
     </>

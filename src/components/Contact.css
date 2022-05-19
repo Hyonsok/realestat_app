@@ -24,15 +24,16 @@
   
   .contact-input {
     padding: 12px 12px;
-    width:30rem;
+    width:20rem;
     border-radius: 5px;
     font-size: 28px;
     border: 5px solid #242424;
+    align-items: center;
   }
 
   .contact-input2 {
     padding: 80px 80px;
-    width:30rem;
+    width:20rem;
     border-radius: 5px;
     font-size: 20px;
     border: 5px solid #242424;
@@ -60,8 +61,10 @@
     font-size: 30px;
   }
 
-  @media (min-width: 768px) {
-
+  @media (min-width: 960px) {
+    .contact-input, .contact-input2 {
+      width: 30rem;
+    }
     .contact-container {
       display: flex;
       flex-direction: row;
@@ -87,18 +90,14 @@
       width: 30rem;
       margin-right: 100px;
       border-radius: 10px;
-      opacity: 0.8;
+      opacity: 0.75;
 
     }
 
   }
    
+
   
-  @media (min-width: 1024px) {
-    .contact-container  {
-     
-    }
-  }
   
 
   
