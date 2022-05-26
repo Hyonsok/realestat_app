@@ -1,0 +1,154 @@
+.logout-part {
+  background: url('https://images.pexels.com/photos/691710/pexels-photo-691710.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500') ;
+  background-color: red;
+  color: aliceblue;
+}
+  
+.signup-container {
+    background: url('https://images.pexels.com/photos/691710/pexels-photo-691710.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500') ;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+  }
+
+  .signup-container h2 {
+    color: #fff;
+    font-size: 40px;
+    text-align: left;
+    margin-top: -50px;
+    margin-bottom: 30px;
+  }
+
+  .signup-container h3 {
+    color:#fff;
+    font-size: 30px;
+    text-align: left;
+  }
+
+  .sign-p {
+    margin-bottom: 20px;
+  }
+
+  .sign-input, .sign-input2 {
+    display: flex;
+    flex-direction: column;
+    padding:15px;
+    margin-bottom: 7px;
+    border-radius: 10px;
+    width: 100%;
+    /* width:470px; */
+
+  }
+
+  .signup-container span {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  input[type="checkbox"]  {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+
+  }
+
+  .hide1 {
+      display: none;
+  }
+
+  .logout-part1,.login-styling {
+    display: none;
+  }
+
+  @media (min-width: 960px) {
+
+    .logout-part1 {
+      display: block;
+      max-width: 450px;
+      background-color: #242424;
+      text-align: center;
+      border-radius: 10px;
+      opacity: 0.8;
+      /* padding: 30px; */
+      position: relative;
+      top:50px;
+      }
+
+      .logout-part1 h3 {
+        font-size: 25px;
+      }
+
+      .logout-part1 p, .input-group {
+        font-size: 20px;
+      }
+
+    .hide1 {
+      position: relative;
+      display: block;
+      background-color: #242424;
+       /* width: 30rem; */
+      margin-right: 100px;
+      border-radius: 10px;
+      opacity: 0.8;
+      padding: 16px;
+    }
+
+    .text p {
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    input[type="submit"] {
+      background-color:white;
+      color:black;
+      padding:6px;
+      margin-top: 10px;
+      border: 4px solid black;
+    }
+
+
+    .signup-container {
+      display: flex;
+      flex-direction: row;
+      margin-top: -100px;
+    }
+
+    .signup-container form {
+      display: flex;
+      flex-direction: column;
+      /* margin-top: -250px; */
+    }
+
+    .login-styling {
+      display: block;
+      padding: 10px 20px;
+      font-size: 18px;
+      position: relative;
+      top:-11px;
+      
+    }
+
+  }
+  
+
+
+  
+
+
+
+
+   
+  
+
+  
+  
+
+  
