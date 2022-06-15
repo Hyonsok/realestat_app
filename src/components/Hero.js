@@ -29,7 +29,6 @@ function Hero() {
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
-          onClick={console.log('hey')}
         >
           Search <i className='far fa-play-circle' />
         </Button>

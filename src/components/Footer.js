@@ -33,14 +33,14 @@ function Footer() {
             <Link to='/'>Terms of Service</Link>
           </div>
           <div className='footer-link-items'>
-            <h2>Contact Us</h2>
+            <h2>Contact</h2>
             <Link to='/'>Contact</Link>
             <Link to='/'>Support</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
-            <h2>Social Media</h2>
+            <h2>SNS</h2>
             <Link to='/'>Instagram</Link>
             <Link to='/'>Facebook</Link>
             <Link to='/'>Twitter</Link>

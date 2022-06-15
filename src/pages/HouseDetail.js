@@ -14,11 +14,9 @@ function HouseDetail() {
       alert(error);
     });
   }, []);
-  // console.log(data.houses?.[houseId]["image"])
   let image = data.houses?.[houseId]["image"];
   let address = data.houses?.[houseId]["address"];
   let price = data.houses?.[houseId]["price"];
-  let instruction = data.houses?.[houseId]["instruction"]
   return (
     <div className='cards'>
       <h1 style={{color: "black"}}>Here is what you chose!</h1>
@@ -34,7 +32,7 @@ function HouseDetail() {
         />
         </ul>
         <Table
-          instruction={instruction}
+        houseId={houseId}
         />
         </div>
       </div>
