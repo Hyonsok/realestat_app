@@ -22,7 +22,7 @@ function Cards() {
         <CardItem
         key={house.id}
         src={house.image}
-        text={house.instruction}
+        text={house.address}
         label={house.price}
         path={`/house-details/${house.id}`}
         />
