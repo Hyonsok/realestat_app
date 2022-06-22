@@ -46,7 +46,7 @@ video {
 
   .hero-input {
     padding: 15px 25px;
-    width:35rem;
+    width:20rem;
     border-radius: 10px;
     margin-right: 10px;
     outline: none;
@@ -85,4 +85,11 @@ video {
     .btn {
       width: 100%;
     }
+
   }
+
+  @media (min-width: 768px) {
+  .hero-input {
+    width:30rem;
+  }
+}
