@@ -34,7 +34,7 @@ function SingUp() {
               <label>
 
     <input type="checkbox" name="fruit[]" value="apples"/>
-    <span>Allow RE Peeps.ca to send you email offers and updates</span>
+    <span>Allow R&H.ca to send you email offers and updates</span>
   </label>
         
             <div className='contact-us'>
